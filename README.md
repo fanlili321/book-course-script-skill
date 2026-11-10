@@ -50,7 +50,7 @@ book-course-script/
 
 ## 使用前提
 
-- 装在 `~/.claude/skills/book-course-script/` 下即可被 Claude Code 识别
+- 作为「课程&书籍」项目的项目级 skill，放在项目的 `.agents/skills/book-course-script/` 下；在该项目里打开 Claude Code 即可识别（也可放到 `~/.claude/skills/` 全局使用）
 - 依赖 `lark-doc`（飞书文档读写）、`lark-drive`（复制文档、评论）等飞书技能完成大纲/图文稿的落地和交互
 
 ## 边界
